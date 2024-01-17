@@ -2,7 +2,7 @@ name: skills_first_test
 
 run-name: Skill First test
 
-on: [push]
+on: push
 
 jobs: 
   build-hola-mundo:
