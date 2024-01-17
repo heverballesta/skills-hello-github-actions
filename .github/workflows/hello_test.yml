@@ -1,5 +1,5 @@
 name: skills_first_test
-
+run-name: verifying_order
 on:
   push:
     branches:
