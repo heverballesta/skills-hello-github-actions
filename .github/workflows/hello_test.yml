@@ -1,12 +1,13 @@
 name: skills_first_test
 
-run-name: Skill First test
+on:
+  push:
+    branches:
+      - main
 
-on: push
-
-jobs: 
+jobs:
   build-hola-mundo:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
